@@ -97,7 +97,6 @@ dotplot(Country~Year,data=data.long,
         
         axis=axis.set,
         key=list(space="right",
-                 #title="Legend",
                  cex=0.5,
                  columns=1,
                  between=1,
