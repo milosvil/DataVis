@@ -88,7 +88,6 @@ cl.ind <- trunc((data.long$NumCig-round(min(data.long$NumCig)))/d+1)
 
 dotplot(Country~Year,data=data.long,
         xlab=NULL, main="Cigarette Consumption Per Person by Country, 1960-2003",
-        sub="\nCap & Change | Data Visualization with R | capandchange.com",
         par.settings=list(dot.line=list(col="transparent"),
                           axis.line=list(col="transparent"),
                           par.sub.text=list(col="gray25",cex=0.9,font=1),
