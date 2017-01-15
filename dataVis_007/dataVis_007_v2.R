@@ -109,12 +109,6 @@ crime_rate <- levelplot(pt.m, aspect="iso", shrink = c(0.8, 0.8),
                         }
 )
 
-#png("crime_rate.png", width=8, height=5, units="in", res=300)
-png("crime_rate.png", width=1300, height=750, units="px")
+png("dataVis_007_v2.png", width=1300, height=750, units="px")
 crime_rate
 dev.off()
-
-search_emoji("sleuth")
-sample_emoji()
-search_fontawesome("group")
-
